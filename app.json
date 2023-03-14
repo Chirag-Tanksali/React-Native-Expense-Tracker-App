@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Expense Tracker",
+    "slug": "Expense_Tracker",
+    "description": "A React native app built by Chirag Tanksali",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/and.png",
+    "splash": {
+      "image": "./assets/and.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/and.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.chiragtanksali.Expense_Tracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    }
+  }
+}
